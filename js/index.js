@@ -40,3 +40,112 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+
+//nav bar
+let nav = document.querySelectorAll("nav a")
+nav[0].textContent = siteContent["nav"]["nav-item-1"]
+nav[1].textContent = siteContent["nav"]["nav-item-2"]
+nav[2].textContent = siteContent["nav"]["nav-item-3"]
+nav[3].textContent = siteContent["nav"]["nav-item-4"]
+nav[4].textContent = siteContent["nav"]["nav-item-5"]
+nav[5].textContent = siteContent["nav"]["nav-item-6"]
+
+
+//DOM is awesome
+let awesome = document.querySelector(".cta-text h1");
+awesome.textContent = siteContent.cta.h1
+
+//lets get started button 
+let started = document.querySelector(".cta-text button");
+started.textContent = siteContent.cta.button;
+
+
+
+//for main content!!
+let pTags = document.querySelectorAll(".text-content p")
+let h4Tags = document.querySelectorAll(".text-content h4")
+
+
+//for features title
+let featureh4 = h4Tags[0]
+featureh4.textContent = siteContent["main-content"]["features-h4"]
+
+
+//for features paragraph
+let featurepara = pTags[0]
+featurepara.textContent = siteContent["main-content"]["features-content"]
+
+//for about title
+let about = h4Tags[1]
+about.textContent = siteContent["main-content"]["about-h4"]
+
+//for about paragraph
+let aboutpara = pTags[1]
+abooutpara.textContent = siteContent["main-content"]["about-content"]
+
+
+//for middle code image
+let rectangle = document.querySelector(".middle-img");
+rectangle.setAttribute('src', siteContent["main-content"]["middle-img-src"])
+
+//services title
+let servicesh4 = h4Tags[2]
+servicesh4.textContent = siteContent["main-content"]["services-h4"]
+
+//for services paragraph
+let servicespara = pTags[2]
+servicespara.textContent = siteContent["main-content"]["services-content"]
+
+//for product title
+let producth4 = h4Tags[3]
+producth4.textContent = siteContent["main-content"]["product-h4"]
+
+//for product paragraph
+let productpara = pTags[3]
+productpara.textContent = siteContent["main-content"]["product-content"]
+
+
+//for vision title
+let visionh4 = h4tags[4]
+visionh4.textContent = siteContent["main-content"]["vision-h4"]
+
+//for vision paragraph
+let visionpara = ptags[4]
+visionpara.textContent = siteContent["main-content"]["vision-content"]
+
+
+
+//for contact section
+//for contact section
+let Pchunks = document.querySelectorAll(".contact p")
+let hchunks = document.querySelector(".contact h4")
+
+hchunks.textContent = siteContent["contact"]["contact-h4"]
+Pchunks[0].textContent = siteContent["contact"]["address"]
+Pchunks[1].textContent = siteContent["contact"]["phone"]
+Pchunks[2].textContent = siteContent["contact"]["email"]
+
+//for footer section
+let copyR = document.querySelector("footer p")
+copyR.textContent = siteContent["footer"]["copyright"]
+
+
+
+//fir appendchild
+const navbar = document.querySelector('nav')
+let newAnchortag = document.createElement('a')
+newAnchortag.textContent = 'History';
+navbar.appendChild(newAnchortag);
+
+const navline = document.querySelector("nav");
+let newAnchor = document.createElement("a");
+newAnchor.textContent = "Mission";
+navline.appendChild(newAnchor);
+
+
+//green font for navbar
+let green = document.querySelectorAll('a')
+green.forEach(anchor => {
+  anchor.style.color = 'green';
+});
