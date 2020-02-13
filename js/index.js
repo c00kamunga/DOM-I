@@ -96,3 +96,11 @@ servicesh4.textContent = siteContent["main-content"]["services-h4"]
 //for services paragraph
 let servicespara = pTags[2]
 servicespara.textContent = siteContent["main-content"]["services-content"]
+
+//for product title
+let producth4 = h4Tags[3]
+producth4.textContent = siteContent["main-content"]["product-h4"]
+
+//for product paragraph
+let productpara = pTags[3]
+productpara.textContent = siteContent["main-content"]["product-content"]
