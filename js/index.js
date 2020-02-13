@@ -89,3 +89,10 @@ abooutpara.textContent = siteContent["main-content"]["about-content"]
 let rectangle = document.querySelector(".middle-img");
 rectangle.setAttribute('src', siteContent["main-content"]["middle-img-src"])
 
+//services title
+let servicesh4 = h4Tags[2]
+servicesh4.textContent = siteContent["main-content"]["services-h4"]
+
+//for services paragraph
+let servicespara = pTags[2]
+servicespara.textContent = siteContent["main-content"]["services-content"]
