@@ -104,3 +104,9 @@ producth4.textContent = siteContent["main-content"]["product-h4"]
 //for product paragraph
 let productpara = pTags[3]
 productpara.textContent = siteContent["main-content"]["product-content"]
+
+
+//for vision title
+let visionh4 = h4tags[4]
+visionh4.textContent = siteContent["main-content"]["vision-h4"]
+
