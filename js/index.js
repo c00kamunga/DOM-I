@@ -56,3 +56,12 @@ nav[5].textContent = siteContent["nav"]["nav-item-6"]
 let awesome = document.querySelector(".cta-text h1");
 awesome.textContent = siteContent.cta.h1
 
+//lets get started button 
+let started = document.querySelector(".cta-text button");
+started.textContent = siteContent.cta.button;
+
+
+
+//for main content!!
+let pTags = document.querySelectorAll(".text-content p")
+let h4Tags = document.querySelectorAll(".text-content h4")
