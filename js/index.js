@@ -117,3 +117,15 @@ visionpara.textContent = siteContent["main-content"]["vision-content"]
 
 
 //for contact section
+//for contact section
+let Pchunks = document.querySelectorAll(".contact p")
+let hchunks = document.querySelector(".contact h4")
+
+hchunks.textContent = siteContent["contact"]["contact-h4"]
+Pchunks[0].textContent = siteContent["contact"]["address"]
+Pchunks[1].textContent = siteContent["contact"]["phone"]
+Pchunks[2].textContent = siteContent["contact"]["email"]
+
+//for footer section
+let copyR = document.querySelector("footer p")
+copyR.textContent = siteContent["footer"]["copyright"]
