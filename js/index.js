@@ -142,3 +142,10 @@ const navline = document.querySelector("nav");
 let newAnchor = document.createElement("a");
 newAnchor.textContent = "Mission";
 navline.appendChild(newAnchor);
+
+
+//green font for navbar
+let green = document.querySelectorAll('a')
+green.forEach(anchor => {
+  anchor.style.color = 'green';
+});
