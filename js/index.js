@@ -52,3 +52,7 @@ nav[4].textContent = siteContent["nav"]["nav-item-5"]
 nav[5].textContent = siteContent["nav"]["nav-item-6"]
 
 
+//DOM is awesome
+let awesome = document.querySelector(".cta-text h1");
+awesome.textContent = siteContent.cta.h1
+
