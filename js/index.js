@@ -80,3 +80,6 @@ featurepara.textContent = siteContent["main-content"]["features-content"]
 let about = h4Tags[1]
 about.textContent = siteContent["main-content"]["about-h4"]
 
+//for about paragraph
+let aboutpara = pTags[1]
+abooutpara.textContent = siteContent["main-content"]["about-content"]
