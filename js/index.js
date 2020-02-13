@@ -83,3 +83,9 @@ about.textContent = siteContent["main-content"]["about-h4"]
 //for about paragraph
 let aboutpara = pTags[1]
 abooutpara.textContent = siteContent["main-content"]["about-content"]
+
+
+//for middle code image
+let rectangle = document.querySelector(".middle-img");
+rectangle.setAttribute('src', siteContent["main-content"]["middle-img-src"])
+
