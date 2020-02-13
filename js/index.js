@@ -65,3 +65,18 @@ started.textContent = siteContent.cta.button;
 //for main content!!
 let pTags = document.querySelectorAll(".text-content p")
 let h4Tags = document.querySelectorAll(".text-content h4")
+
+
+//for features title
+let featureh4 = h4Tags[0]
+featureh4.textContent = siteContent["main-content"]["features-h4"]
+
+
+//for features paragraph
+let featurepara = pTags[0]
+featurepara.textContent = siteContent["main-content"]["features-content"]
+
+//for about title
+let about = h4Tags[1]
+about.textContent = siteContent["main-content"]["about-h4"]
+
