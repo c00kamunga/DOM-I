@@ -129,3 +129,16 @@ Pchunks[2].textContent = siteContent["contact"]["email"]
 //for footer section
 let copyR = document.querySelector("footer p")
 copyR.textContent = siteContent["footer"]["copyright"]
+
+
+
+//fir appendchild
+const navbar = document.querySelector('nav')
+let newAnchortag = document.createElement('a')
+newAnchortag.textContent = 'History';
+navbar.appendChild(newAnchortag);
+
+const navline = document.querySelector("nav");
+let newAnchor = document.createElement("a");
+newAnchor.textContent = "Mission";
+navline.appendChild(newAnchor);
