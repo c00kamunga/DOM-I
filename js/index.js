@@ -110,3 +110,10 @@ productpara.textContent = siteContent["main-content"]["product-content"]
 let visionh4 = h4tags[4]
 visionh4.textContent = siteContent["main-content"]["vision-h4"]
 
+//for vision paragraph
+let visionpara = ptags[4]
+visionpara.textContent = siteContent["main-content"]["vision-content"]
+
+
+
+//for contact section
